@@ -1,0 +1,21 @@
+{
+    "name": "d-loading-indicator",
+    "description": "Loading indicator Derby component",
+    "version": "0.1",
+    "main": "index.js",
+    "keywords": [
+        "derby",
+        "component"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/balek/d-loading-indicator.git"
+    },
+    "bugs": {
+        "url": "https://github.com/balek/d-loading-indicator/issues"
+    },
+    "author": "Alexey Balekhov",
+    "license": "GPLv3",
+    "dependencies": {},
+    "devDependencies": {}
+}
