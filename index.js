@@ -32,7 +32,8 @@ LoadingIndicator.prototype.destroy = function () {
     this.model.set('show', true);
 
     saveState = function() {
-        savedState = getComputedStyle(this.indicator).opacity;
+        if (this.indicator)
+            savedState = getComputedStyle(this.indicator).opacity;
         this.app.removeListener('render', saveState);
     }.bind(this);
 
